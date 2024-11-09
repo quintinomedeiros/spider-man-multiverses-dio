@@ -90,6 +90,11 @@ body::before {
   width: 100%;
   bottom: 0;
   transition: bottom 1s ease-in-out;
+  transform: rotateY(180deg);
+}
+
+.s-card__title__rotate {
+  transform: rotateY(0deg);
 }
 
 .s-controller {
